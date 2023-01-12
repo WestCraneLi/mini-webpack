@@ -76,8 +76,7 @@ class MiniWebpack {
         }
 
         require('${entry}');
-    })(${graph})
-    `;
+    })(${graph})`;
   };
   fileOutput = (output, code) => {
     const { path: dirPath, filename } = output;

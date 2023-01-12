@@ -15,5 +15,18 @@ module.exports = {
         'babel-loader'
       ],
     },
+    // {
+    //   test:/\.js$/,
+    //   use:[
+    //     {
+    //       loader:path.resolve('./tools/loader/varToletLoader.js'),
+    //       options: {
+    //         str: "var",
+    //         replaceStr: "let",
+    //         // 将 let 替换为 const
+    //       },
+    //     }
+    //   ]
+    // }
   ],
 };
