@@ -1,7 +1,7 @@
 # 介绍
 手动实现一个mini-webpack
 # 安装
-```npm init```
+```npm install```
 # 运行
 ```npm run build```
 # 参考
